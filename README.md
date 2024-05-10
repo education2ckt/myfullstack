@@ -1,2 +1,4 @@
-# myfullstack
-교육용
+### myfullstack 
+
+![alt text](main.png)
+
