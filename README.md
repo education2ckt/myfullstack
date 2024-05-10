@@ -1,4 +1,3 @@
 ### myfullstack 
-
-![alt text](main.png)
+![이미지없음](main.png)
 
