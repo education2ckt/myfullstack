@@ -6,13 +6,13 @@ import lombok.*;
 
 @AllArgsConstructor  @NoArgsConstructor
 @Getter @Setter @ToString
-public class MovieDto {
+public class MovieDTO {
     private long idx;
     private String title;
     private String image;
     private String content;
     
-    public MovieDto(Movie movie) {
+    public MovieDTO(Movie movie) {
         idx = movie.getIdx();
         title = movie.getTitle();
         image = movie.getImage();
