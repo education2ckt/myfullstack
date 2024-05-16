@@ -7,7 +7,7 @@ jobs:                                # Job 설정
   build:
     runs-on: ubuntu-latest
     env:
-      working-directory: ./front
+      working-directory: ./frontend
     steps:
       - name: Checkout source code.   # Repo checkout
         uses: actions/checkout@v3
