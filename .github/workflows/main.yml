@@ -28,6 +28,7 @@ jobs:                                # Job 설정
           distribution : 'temurin'
           
       - name : Build with Gradle 1
+        working-directory: ./backend
         run: chmod +x gradlew
 
       - name: Build with Gradle 2
